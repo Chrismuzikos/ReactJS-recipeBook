@@ -23,7 +23,7 @@ class Connexion extends React.Component {
                         ref={input => {this.boxInput = input}}
                      />
                      <button type="submit">GO</button>
-                     <p>Pas de caractères spéciaux</p>
+                     {/* <p>Pas de caractères spéciaux</p> */}
                 </form>
             </div>
         )
